@@ -32,17 +32,12 @@ public class AdaptadorPelicula extends RecyclerView.Adapter<AdaptadorPelicula.Pe
         private TextView clasificacion;
         private View v;
 
-        public PeliculaViewHolder(@NonNull View itemView) {
-            super(itemView);
-        }
-
-        /*public PeliculaViewHolder(View itemView) {
+        public PeliculaViewHolder(View itemView) {
             super(itemView);
             v = itemView;
             foto = v.findViewById(R.id.foto);
             nombre = v.findViewById(R.id.lblNombre);
-            genero = v.findViewById(R.id.lblApellido);
-            clasificacion = v.findViewById(R.id.lblApellido);
-        }*/
+            genero = v.findViewById(R.id.lblGenero);
+        }
     }
 }
