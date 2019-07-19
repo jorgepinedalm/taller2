@@ -57,4 +57,16 @@ public class Pelicula {
     public void setClasificacion(String clasificacion) {
         this.clasificacion = clasificacion;
     }
+
+    public void guardar(){
+        Datos.agregar(this);
+    }
+
+    public void eliminar(){
+        Datos.eliminar(this);
+    }
+
+    public void editar(){
+        Datos.editar(this);
+    }
 }
