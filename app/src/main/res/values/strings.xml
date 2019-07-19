@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">taller2</string>
     <string name="action_settings">Settings</string>
+    <string name="peliculas">Peliculas</string>
+    <string name="nombre">Nombre de pelicula</string>
+    <string name="duracion">Duracion</string>
+    <string name="Genero">Género</string>
+    <string name="clasificacion">Clasificación</string>
 </resources>
